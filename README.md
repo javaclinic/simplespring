@@ -22,6 +22,10 @@ This simple example demonstrates Spring container, i.e. `org.springframework.bea
 4. Select `Check out Maven Projects from SCM`
 5. Select SCM URL as `git` and type in `https://github.com/javaclinic/simplespring.git`
 6. Select `Finish`
+7. Right click on newly created project, e.g. `simplespring`
+8. Select `Maven`
+9. Select `Update Project ... ALT+F5`
+10. Select `OK`
 
 ## Run example in Eclipse
 1. Right click on `com.javaclinic.simplespring.run.SimpleSpringExample`
