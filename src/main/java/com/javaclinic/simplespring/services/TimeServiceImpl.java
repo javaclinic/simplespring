@@ -12,36 +12,24 @@ import java.util.logging.Logger;
  */
 public class TimeServiceImpl implements TimeService {
 
-	private static final Logger LOGGER = Logger.getLogger(TimeServiceImpl.class.getCanonicalName());
+    private static final Logger LOGGER = Logger.getLogger(TimeServiceImpl.class.getCanonicalName());
 
-	public TimeServiceImpl() {
-    	LOGGER.info("Inside " + this.getClass().getSimpleName() + "() constructor method. Instantiating service.");
-	}
-	
-	/*
-	 * Implementing business service method.
-	 * 
-	 * (non-Javadoc)
-	 * @see com.javaclinic.simplespring.services.TimeService#getCurrentDate()
-	 */
-	@Override
-	public Date getCurrentDate() {
-    	LOGGER.info("Inside " + this.getClass().getSimpleName() + ".getCurrentDate() business method. Processing business call.");
-		Date now = new Date();
-		return now;
-	}
+    public TimeServiceImpl() {
+        LOGGER.info("Inside " + this.getClass().getSimpleName() + "() constructor method. Instantiating service.");
+    }
 
-	/*
-	 * Implementing business service method.
-	 * 
-	 * (non-Javadoc)
-	 * @see com.javaclinic.simplespring.services.TimeService#getCurrentTimestamp()
-	 */
-	@Override
-	public String getCurrentTimestamp() {
-    	LOGGER.info("Inside " + this.getClass().getSimpleName() + ".getCurrentTimestamp() business method. Processing business call.");
-		Date now = new Date();
-		return now.toString();
-	}
+    @Override
+    public Date getCurrentDate() {
+        LOGGER.info("Inside " + this.getClass().getSimpleName() + ".getCurrentDate() business method. Processing business call.");
+        Date now = new Date();
+        return now;
+    }
+
+    @Override
+    public String getCurrentTimestamp() {
+        LOGGER.info("Inside " + this.getClass().getSimpleName() + ".getCurrentTimestamp() business method. Processing business call.");
+        Date now = new Date();
+        return now.toString();
+    }
 
 }

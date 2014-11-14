@@ -7,5 +7,5 @@
     ">
 
     <bean id="timeservice" class="com.javaclinic.simplespring.services.TimeServiceImpl" />
-    
+
 </beans>
