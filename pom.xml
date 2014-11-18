@@ -5,11 +5,11 @@
 >
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.javaclinic</groupId>
-    <artifactId>simplespring</artifactId>
+    <artifactId>spring-simple</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <name>SimpleSpring</name>
-    <url>http://javaclinic.com/examples/simplespring</url>
+    <name>spring-simple</name>
+    <url>http://javaclinic.github.io/simple-spring</url>
 
     <properties>
         <junit.version>4.11</junit.version>
@@ -44,7 +44,7 @@
     </dependencies>
 
     <build>
-        <finalName>simplespring</finalName>
+        <finalName>spring-simple</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
