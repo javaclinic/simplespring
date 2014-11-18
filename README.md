@@ -1,4 +1,4 @@
-# Simple Spring Example (simplespring)
+# Simple Spring Example (spring-simple)
 
 This simple example demonstrates Spring container, i.e. `org.springframework.beans.factory.BeanFactory`
 * Spring container is configured by `src/java/resources/applicationContext.xml` Spring configuration file.
@@ -8,7 +8,7 @@ This simple example demonstrates Spring container, i.e. `org.springframework.bea
 
 ## Build JAR
 
-* `mvn package` - builds a jar file, e.g. `target/simplespring.jar`
+* `mvn package` - builds a jar file, e.g. `target/spring-simple.jar`
 
 ## Run example
 
@@ -20,9 +20,9 @@ This simple example demonstrates Spring container, i.e. `org.springframework.bea
 2. Select `Import...`
 3. Select `Maven`
 4. Select `Check out Maven Projects from SCM`
-5. Select SCM URL as `git` and type in `https://github.com/javaclinic/simplespring.git`
+5. Select SCM URL as `git` and type in `https://github.com/javaclinic/spring-simple.git`
 6. Select `Finish`
-7. Right click on newly created project, e.g. `simplespring`
+7. Right click on newly created project, e.g. `spring-simple`
 8. Select `Maven`
 9. Select `Update Project ... ALT+F5`
 10. Select `OK`
