@@ -56,7 +56,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.3.2</version>
                 <configuration>
-                    <mainClass>com.javaclinic.simplespring.run.SimpleSpringExample</mainClass>
+                    <mainClass>example.run.SimpleSpringExample</mainClass>
                 </configuration>
             </plugin>
         </plugins>
