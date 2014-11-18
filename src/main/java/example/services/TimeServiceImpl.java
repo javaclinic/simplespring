@@ -1,4 +1,4 @@
-package com.javaclinic.simplespring.services;
+package example.services;
 
 
 import java.util.Date;

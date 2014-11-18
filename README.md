@@ -2,7 +2,7 @@
 
 This simple example demonstrates Spring container, i.e. `org.springframework.beans.factory.BeanFactory`
 * Spring container is configured by `src/java/resources/applicationContext.xml` Spring configuration file.
-* Spring container instantiates `com.javaclinic.simplespring.services.TimeServiceImpl`.
+* Spring container instantiates `example.services.TimeServiceImpl`.
 * Application asks for a service instance from Spring container.
 * Application calls the service instance.
 
@@ -13,7 +13,7 @@ This simple example demonstrates Spring container, i.e. `org.springframework.bea
 ## Run example
 
 * `mvn exec:java` - runs the application, with `exec.mainClass` specified in `pom.xml`
-* `mvn exec:java -Dexec.mainClass="com.javaclinic.simplespring.run.SimpleSpringExample"` - runs the application
+* `mvn exec:java -Dexec.mainClass="example.run.SimpleSpringExample"` - runs the application
 
 ## Import project to Eclipse
 1. Right click in your Project Explorer
@@ -28,6 +28,6 @@ This simple example demonstrates Spring container, i.e. `org.springframework.bea
 10. Select `OK`
 
 ## Run example in Eclipse
-1. Right click on `com.javaclinic.simplespring.run.SimpleSpringExample`
+1. Right click on `example.run.SimpleSpringExample`
 2. Select `Run As`
 3. Select `Java Application`

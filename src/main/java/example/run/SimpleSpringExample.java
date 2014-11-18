@@ -1,9 +1,9 @@
-package com.javaclinic.simplespring.run;
+package example.run;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.javaclinic.simplespring.services.TimeService;
+import example.services.TimeService;
 
 /**
  * SimpleSpringExample shows a simple Spring container instantiate a TimeService object.

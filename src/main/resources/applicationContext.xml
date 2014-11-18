@@ -6,6 +6,6 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
     ">
 
-    <bean id="timeservice" class="com.javaclinic.simplespring.services.TimeServiceImpl" />
+    <bean id="timeservice" class="example.services.TimeServiceImpl" />
 
 </beans>
