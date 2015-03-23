@@ -12,22 +12,12 @@
     <url>http://javaclinic.github.io/simple-spring</url>
 
     <properties>
-        <junit.version>4.11</junit.version>
-        <jdk.version>1.7</jdk.version>
-        <spring.version>4.1.2.RELEASE</spring.version>
+        <spring.version>4.1.5.RELEASE</spring.version>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
  
     <dependencies>
-
-        <!-- JUnit dependency --> 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- Spring dependency -->
         <dependency>
